@@ -84,14 +84,15 @@
       <br />
 
       <span>Gender:</span>
-      <label for="male"> Male </label>
+
       <input type="radio" name="gender" id="male" checked />
+      <label for="male"> Male </label>
 
-      <label for="female"> Female </label>
       <input type="radio" name="gender" id="female" />
+      <label for="female"> Female </label>
 
-      <label for="gay"> Not able to say </label>
       <input type="radio" name="gender" id="gay" />
+      <label for="gay"> Not able to say </label>
 
       <p>Select your Education :</p>
 
@@ -102,6 +103,71 @@
         <option value="Graduate">Graduate</option>
         <option value="Masters">Masters</option>
       </select>
+
+      <br />
+      <br />
+
+      <label for="">Age :</label>
+      <input type="checkbox" name="age" id="5-10" />
+      <label for="5-10"> 5-10</label>
+
+      <input type="checkbox" name="age" id="10-15" />
+      <label for="10-15"> 10-15</label>
+
+      <input type="checkbox" name="age" id="15-20" />
+      <label for="15-20"> 15-20</label>
+
+      <input type="checkbox" name="age" id="20-25" />
+      <label for="20-25"> 20-25</label>
+
+      <input type="checkbox" id="25-30" />
+      <label for="25-30"> 25-30</label>
+
+      <br />
+      <br />
+
+      <span>Date of Birth :</span>
+      <input type="date" />
+
+      <br />
+      <br />
+
+      <fieldset>
+        <label for="Street Address">Street Address:</label>
+        <input
+          type="text"
+          id="Street Address "
+          size="40"
+          maxlength="20"
+          placeholder="Optional"
+        />
+        <br />
+        <br />
+        <label for="Martial Status">Martial Status :</label>
+        <input
+          type="text"
+          id="Martial Status"
+          size="40"
+          maxlength="20"
+          placeholder="Optional"
+        />
+      </fieldset>
+
+      <br />
+      <br />
+
+      <p>Why you Want to Join us</p>
+      <textarea
+        name="Feedback"
+        id=""
+        placeholder="Write your Feedback here"
+        maxlength="500"
+      ></textarea>
+
+      <br />
+      <br />
+
+      <button>Submit</button>
     </form>
   </body>
 </html>
